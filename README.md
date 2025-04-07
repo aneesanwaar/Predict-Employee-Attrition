@@ -95,7 +95,29 @@ The analysis was conducted using Python scripts/notebooks. Key steps involved:
 4.  Evaluating the model performance using standard classification metrics.
 5.  Applying the SHAP `LinearExplainer` to the trained model and preprocessed data to generate explanations and plots.
 
-*(If this were a code repository, you would add instructions like `pip install -r requirements.txt` and `python run_analysis.py` or `jupyter notebook <notebook_name>.ipynb` here)*
+## Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/aneesanwaar/Predict-Employee-Attrition.git
+    cd Predict-Employee-Attrition
+    ```
+    
+2.  Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1.  Ensure the dataset file (`WA_Fn-UseC_-HR-Employee-Attrition.csv`) is in the root directory or adjust the path in the code.
+2.  Open and run the Jupyter Notebook:
+    ```bash
+    jupyter notebook employee_attrition_analysis.ipynb
+    ```
+    *(Or, if using a script: `python employee_attrition_script.py`)*
+3.  Follow the steps within the notebook/script to perform the analysis, train the model, and generate explanations.
+
 
 ## Future Work
 
